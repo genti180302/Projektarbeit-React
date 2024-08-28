@@ -1,0 +1,29 @@
+.whole-person-dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin: 19px;
+    margin-top: 20px;
+    height: 380px;
+    background-color: white;
+    padding: 20px;
+}
+
+.person-title{
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+   img{
+    width: 30px;
+   }
+   p{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+   }
+}
+
+
+.person-data{
+    font-size: 13px;
+}

@@ -1,5 +1,5 @@
 {
-  "firstName": "[firstName]",
-  "lastName": "[lastName]",
-  "additionalInformation": "[additionalInformation]"
+  "firstName": "[FirstName]",
+  "lastName": "[LastName]",
+  "additionalInformation": "[AdditionalInformation]"
 }

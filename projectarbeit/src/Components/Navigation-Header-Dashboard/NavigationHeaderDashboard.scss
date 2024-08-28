@@ -1,0 +1,30 @@
+.whole-navigation-header{
+    width: 98%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+
+    .home-image{
+        width: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .whole-second-navigation-text{
+        width: 300px;
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 22px;
+            height: 20px;
+        }
+
+        .navigation-text{
+            color: red;
+            font-size: 15px;
+        }
+    }
+ }
+
