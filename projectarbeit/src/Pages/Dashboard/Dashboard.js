@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Dashboard.scss'
 import HeaderDashboard from "../../Components/Header-Dashboard/HeaderDashboard";
 import NavigationHeaderDashboard from "../../Components/Navigation-Header-Dashboard/NavigationHeaderDashboard";
@@ -8,7 +8,6 @@ import InfoDashboard from "../../Components/Info-Dashboard/InfoDashboard";
 import ListeDashboard from "../../Components/Liste-Dashboard/ListeDashboard";
 import cadsData from '../../database/cads.json'
 import listCads from '../../database/list.json'
-import Pagination from "../../Components/Pagination/Pagination";
 
 
 

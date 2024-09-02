@@ -9,7 +9,7 @@ const PersonDashboard = ({data}) => {
         <>
             <div className="whole-person-dashboard">
                 <div className="person-title">
-                    <img src={require('../../images/icon_web_user.png')}/>
+                    <img src={require('../../images/icon_web_user.png')} alt="foto"/>
                     <p> Person </p>
                 </div>
                 <div className="person-data">

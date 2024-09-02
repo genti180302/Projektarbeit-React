@@ -13,7 +13,7 @@ const Pagination = ({currentPage,totalPages,onPageChange}) => {
         <nav>
           <ul className="whole-page-list-numbers">
             <div style={{display:'flex', alignItems:'center',height:'100%'}}>
-            <img src={require('../../images/icon_web_arrow_left.png')}/>
+            <img src={require('../../images/icon_web_arrow_left.png')} alt="foto"/>
             </div>
             {pageNumbers.map((number) => (
               <li className="page-list-number" key={number} style={{ margin: '0 5px' }}>
@@ -23,7 +23,7 @@ const Pagination = ({currentPage,totalPages,onPageChange}) => {
               </li>
             ))}
             <div style={{display:'flex', alignItems:'center',height:'100%'}}>
-            <img src={require('../../images/icon_web_arrow_right.png')}/>
+            <img src={require('../../images/icon_web_arrow_right.png')} alt="foto"/>
             </div>
           </ul>
         </nav>

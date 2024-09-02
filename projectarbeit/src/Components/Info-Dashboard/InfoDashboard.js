@@ -7,7 +7,7 @@ const InfoDashboard = ({data}) => {
         <>
             <div className="whole-info-dashboard">
                 <div className="info-title">
-                    <img src={require('../../images/icon_web_info.png')}/>
+                    <img src={require('../../images/icon_web_info.png')} alt="foto"/>
                     <p> CADS Information </p>
                 </div>
                 <div className="info-all-text">

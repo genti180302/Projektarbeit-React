@@ -37,7 +37,7 @@ const ListeDashboard = ({ data }) => {
                         {currentItems.map((el) => {
                             return <tr key={el.id} className="whole-table-data">
                                 <th style={{ textAlign: 'left' }}>
-                                    <img style={{ marginRight: '7px' }} src={require('../../images/icon_web_liste.png')} />
+                                    <img style={{ marginRight: '7px' }} src={require('../../images/icon_web_liste.png')} alt="foto" />
                                     {el.name}
                                 </th>
                                 <th> {el.materialNumber} </th>
