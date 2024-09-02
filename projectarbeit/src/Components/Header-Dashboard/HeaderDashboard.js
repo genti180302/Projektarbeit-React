@@ -1,5 +1,7 @@
 import React from "react";
 import './HeaderDashboard.scss'
+import {Link} from "react-router-dom"
+
 
 
 const HeaderDashboard = () => {
@@ -15,7 +17,9 @@ const HeaderDashboard = () => {
                     <p className="text-header">Probearbeit - Dashboard</p>
                 </div>
                 <div className="user-img-dashboard">
+                    <Link to='/'>
                     <img src={require('../../images/icon_web_thumbnail_user.png')} alt="foto-3"/>
+                    </Link>
                 </div>
             </div>
         </>

@@ -1,0 +1,31 @@
+.whole-page-list-numbers{
+    display: flex;
+    width: 100%;
+    height: 43px;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid rgb(202, 198, 198);
+    background: rgb(255, 255, 255);
+    
+   
+    
+    .page-list-number{
+        display: flex;
+        height: 100%;
+        align-items: center;
+
+    }
+
+    .page-number-button{
+        border: none;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+
+    .page-number-button:active{
+        background: rgb(215, 31, 31);
+    }
+}

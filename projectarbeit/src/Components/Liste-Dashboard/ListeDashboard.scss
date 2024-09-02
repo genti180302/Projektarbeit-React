@@ -1,7 +1,44 @@
-.test3{
+.whole-list{
     width: 73%;
     height: 820px;
     margin: 19px;
     background-color: white;
 
+    .list-title{
+        display: flex;
+        align-items: center;
+        margin: 30px;
+    }
+}
+
+
+.whole-list-table{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.list-descriptions{
+    font-size: 10px;
+    color: gray;
+    padding-bottom: 10px;
+    td{
+        width: 140px;
+        text-align: center;
+        padding-bottom: 10px;
+    } 
+}
+
+.whole-table-data{
+    font-size: 14px;
+    border-top: 1px solid rgb(206, 203, 203);
+    height: 39.3px;
+}
+
+
+
+.table-data-text{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }

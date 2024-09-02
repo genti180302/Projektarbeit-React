@@ -12,7 +12,7 @@ const MainLogin = () => {
                 <img src={require('/Users/gentianlatifi/React-Projects/Projektarbeit-React/projectarbeit/src/images/logo_app_icon.png')} alt="Foto 1" />
                 <img src={require('/Users/gentianlatifi/React-Projects/Projektarbeit-React/projectarbeit/src/images/logo_login_grey.png')} alt="Foto2"/>
                 <Link to='/Dashboard'>
-                    <button> Login </button>
+                    <button style={{cursor:'pointer'}}> Login </button>
                 </Link>
                 </div>
             </section>

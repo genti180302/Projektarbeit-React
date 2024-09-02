@@ -1,5 +1,7 @@
 import React from "react";
 import './FooterLogin.scss'
+import {Link} from "react-router-dom"
+
 
 const FooterLogin = () => {
 
@@ -7,9 +9,9 @@ const FooterLogin = () => {
         <>
             <section className="Footer-Login-Section">
                     <ul>
-                    <li>Privacy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Imprint</li>
+                        <Link style={{textDecoration:'none',color:'black'}} to='/Privacy'><li>Privacy</li></Link>
+                        <Link style={{textDecoration:'none',color:'black'}}to='Terms & Condition'><li>Terms & Conditions</li></Link>
+                        <Link style={{textDecoration:'none',color:'black'}} to='Imprint'><li>Imprint</li></Link>
                     </ul>
             </section>
         </>
