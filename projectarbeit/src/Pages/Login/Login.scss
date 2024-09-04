@@ -2,3 +2,9 @@
     background-image: url('../../images/background.png');
     font-family: "Roboto", sans-serif;
 }
+
+@media (max-width:767px) {
+    .first-page-login{
+    min-height: 700px;
+    }
+}

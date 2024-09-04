@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 const FooterLogin = () => {
 
     return(
-        <>
+        <> 
             <section className="Footer-Login-Section">
                     <ul>
                         <Link style={{textDecoration:'none',color:'black'}} to='/Privacy'><li>Privacy</li></Link>
