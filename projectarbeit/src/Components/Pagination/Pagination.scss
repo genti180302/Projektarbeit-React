@@ -29,3 +29,11 @@
         background: rgb(215, 31, 31);
     }
 }
+
+@media (max-width:767px) {
+    .page-number-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
