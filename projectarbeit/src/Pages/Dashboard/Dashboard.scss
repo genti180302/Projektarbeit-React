@@ -4,3 +4,15 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+@media (max-width: 767px) /* and (orientation: landscape) */{
+    .whole-dashboard{
+        height: calc(100vh + 800px);
+    }
+
+    .mobile-version{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

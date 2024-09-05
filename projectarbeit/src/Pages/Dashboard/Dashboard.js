@@ -20,7 +20,7 @@ const Dashboard = () => {
         <div className="whole-dashboard">
             <HeaderDashboard/>
             <NavigationHeaderDashboard/>
-            <div style={{height:'850px',display:'flex'}}>
+            <div className="mobile-version" style={{height:'850px',display:'flex'}}>
                 <div>
                     <PersonDashboard data={personData}/>
                     <InfoDashboard data={cadsData}/>

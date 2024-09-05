@@ -28,3 +28,19 @@
     font-size: 13px;
 }
 
+@media (max-width:767px) {
+    .whole-person-dashboard{
+        width: 330px;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .person-title{
+        margin: 4px;
+    }
+
+    .person-data{
+        margin: 8px;
+    }
+}

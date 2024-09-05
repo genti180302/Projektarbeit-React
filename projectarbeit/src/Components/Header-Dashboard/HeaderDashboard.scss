@@ -53,6 +53,20 @@
     }
 }
 
-/* @media (max-width: 767px) and (orientation: landscape){
+@media (max-width: 767px) /* and (orientation: landscape) */{
+.first-burger-icon{
+    padding: 10px;
+}
 
-} */
+    .second-whole-text-header{
+        width: 700px;
+        .text-header{
+            font-size: 15px;
+        }
+    }
+
+    .user-img-dashboard{
+        padding: 10px;
+    }
+
+}

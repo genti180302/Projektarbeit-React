@@ -39,3 +39,23 @@
            }
     }
 }
+
+@media (max-width:767px){
+    .whole-info-dashboard{
+        width: 370px;
+        height: 340px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .info-title{
+        margin: 25px;
+    }
+
+    .info-all-text{
+        margin: 5px;
+    }
+    .info-text{
+        padding: 3px;
+    }
+
+}
